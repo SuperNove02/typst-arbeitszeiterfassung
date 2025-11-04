@@ -1,0 +1,17 @@
+[package]
+name = "classical-german-worktime-report"
+version = "0.1.0"
+compiler = "0.14.0"
+entrypoint = "lib.typ"
+repository = "https://github.com/SuperNove02/typst-arbeitszeiterfassung"
+authors = ["Peter S <@SuperNove02>"]
+license = "MIT"
+description = "Classical german worktime report."
+keywords = ["worktime", "german"]
+categories = ["layout", "office"]
+disciplines = []
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "template/thumbnail.png"
